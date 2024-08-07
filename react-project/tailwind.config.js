@@ -2,11 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    colors: {
-      accentbg: "#ecf3fe",
-      accent: "#434ce8",
-    },
     extend: {
+      colors: {
+        accentbg: "#ecf3fe",
+        accent: "#434ce8",
+      },
       screens: {
         xs: "475px",
         sm: "640px",
